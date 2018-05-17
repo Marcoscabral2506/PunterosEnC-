@@ -3,6 +3,24 @@
 
 int main()
 {
-    printf("Hello world!\n");
-    return 0;
+     // Punteros
+     int *punteroNumero;
+     int numero;
+     int numeroDos;
+
+     numero= 66;
+     numeroDos=&numero;
+     punteroNumero= &numero;
+     //*punteroNumero=&numero;
+     //*punteroNumero=55;
+     printf("\n%d", numero);
+     printf("\n%d", numeroDos);
+    numeroDos=*punteroNumero; //asigno valor
+     printf("\n%d", &numero);
+     printf("\n%p", punteroNumero);
+     printf("\n%p", &punteroNumero);
+     printf("\n%d", *punteroNumero);
+
+     //printf("%d", *punteroNumero);
+     return 0;
 }
