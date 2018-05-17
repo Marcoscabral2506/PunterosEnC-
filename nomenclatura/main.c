@@ -17,9 +17,9 @@ int main()
      printf("\n%d", numeroDos);
     numeroDos=*punteroNumero; //asigno valor
      printf("\n%d", &numero);
-     printf("\n%p", punteroNumero);
-     printf("\n%p", &punteroNumero);
-     printf("\n%d", *punteroNumero);
+     printf("\n%p", punteroNumero);  //muestra la direccion de memoria del valor
+     printf("\n%p", &punteroNumero); //muestra la direccion de memoria del puntero
+     printf("\n%d", *punteroNumero); //muestra valor
 
      //printf("%d", *punteroNumero);
      return 0;
